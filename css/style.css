@@ -17,12 +17,21 @@
   margin-top: 70px;
 }
 
+.ms_bg_grey {
+  background-color: #eee;
+}
+
 /* header */
 
 /* navbar */
 .ms_head_top {
   height: 70px;
   line-height: 70px;
+}
+
+.wrapped {
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* jumbotron */
