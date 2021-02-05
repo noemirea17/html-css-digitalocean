@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utility */
+.ms_padding_top {
+  padding-top: 30px;
+}
+
+.ms_padding_bottom {
+  padding-bottom: 30px;
+}
+
+ .ms_jumbotron_margin{
+  margin-top: 70px;
+}
+
+/* header */
+
+/* navbar */
+.ms_head_top {
+  height: 70px;
+  line-height: 70px;
+}
+
+/* jumbotron */
+.ms_form_box {
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: white;
+}
+
+
+/* eliminare */
+.ms_head_top {
+  background-color: blue;
+}
+
+.ms_head_left {
+  height: 70px;
+  background-color: red;
+}
+
+.ms_head_middle {
+  height: 70px;
+  background-color: yellow;
+}
+
+.ms_head_right {
+  height: 70px;
+  background-color: red;
+}
+
+.ms_jumbo_col_left {
+  background-color: lightblue;
+}
+
+.ms_jumbo_col_right {
+  background-color: lightgreen;
+}
