@@ -21,6 +21,16 @@
   background-color: #eee;
 }
 
+.ms_bg_lightblue {
+  background-color: #111d9e;
+  color: white;
+}
+
+.ms_bg_blue {
+  background-color: #19217b;
+  color: white;
+}
+
 /* header */
 
 /* navbar */
@@ -42,6 +52,10 @@
   background-color: white;
 }
 
+/* footer */
+.content {
+  width: 50%;
+}
 
 /* eliminare */
 .ms_head_top {
