@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: 'Inter', sans-serif;
+}
 
 /* utility */
 .ms_padding_top {
@@ -13,12 +16,8 @@
   padding-bottom: 30px;
 }
 
- .ms_jumbotron_margin{
-  margin-top: 70px;
-}
-
 .ms_bg_grey {
-  background-color: #eee;
+  background-color: rgb(243, 245, 249);
 }
 
 .ms_bg_lightblue {
@@ -31,25 +30,103 @@
   color: white;
 }
 
+.wrapped {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ms_text_grey {
+  color: grey;
+}
 /* header */
 
 /* navbar */
 .ms_head_top {
   height: 70px;
   line-height: 70px;
+  background-color: white;
 }
 
-.wrapped {
-  width: 80%;
-  margin: 0 auto;
+#logo {
+  max-width: 150px;
 }
+
+.ms_hamb_menu {
+  font-size: 2em;
+  color: rgb(0, 105, 255);
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.ms_button_style {
+  border-color: rgb(0, 105, 255);
+  color: rgb(0, 105, 255);
+}
+
 
 /* jumbotron */
+.ms_jumbotron_margin{
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+.ms_jumbo_bg {
+  background-image: url("../img/bg_jumbotron.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ms_jumbo_col_left h1 {
+  color: white;
+}
+
+.ms_jumbo_col_left p {
+  color: rgba(169,205,255,1);
+}
+
 .ms_form_box {
   width: 90%;
   margin: 20px auto;
   padding: 10px;
   background-color: white;
+  border-radius: 5px;
+}
+
+.ms_form_box h3 {
+  color: rgb(0, 105, 255);
+  font-weight: bold;
+}
+
+button img {
+  height: 25px;
+}
+
+.ms_terms {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.ms_terms span a {
+  text-decoration: underline;
+}
+
+/* prima sezione */
+
+#deploy  ul {
+  list-style: none;
+  border-left: 1px solid grey;
+  padding: 0 20px;
+}
+
+#deploy  ul li {
+  padding: 10px;
+}
+
+.ms_content {
+  width: 90%;
 }
 
 /* footer */
@@ -57,30 +134,14 @@
   width: 50%;
 }
 
-/* eliminare */
-.ms_head_top {
-  background-color: blue;
+/* TABLET */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
 }
 
-.ms_head_left {
-  height: 70px;
-  background-color: red;
-}
-
-.ms_head_middle {
-  height: 70px;
-  background-color: yellow;
-}
-
-.ms_head_right {
-  height: 70px;
-  background-color: red;
-}
-
-.ms_jumbo_col_left {
-  background-color: lightblue;
-}
-
-.ms_jumbo_col_right {
-  background-color: lightgreen;
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  .ms_logo_img {
+    width: 100%;
+  }
 }

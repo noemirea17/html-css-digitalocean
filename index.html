@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Digital Ocean</title>
   </head>
@@ -16,28 +18,29 @@
         <div class="container-fluid">
           <div class="wrapped">
             <div class="row">
-              <div class="ms_head_left col-xs-6 col-md-3">
-                LOGO
+              <div class="ms_head_left col-xs-6 col-md-2">
+                <img id="logo" src="img/logo.png" alt="">
               </div>
-              <div class="text-center ms_head_middle hiddedn-xs visible-md visible-lg col-md-5">
+              <div class="text-center ms_head_middle hiddedn-xs visible-md visible-lg col-md-6">
                 <nav>
                   <ul class="list-inline">
-                    <li>link</li>
-                    <li>link</li>
-                    <li>link</li>
-                    <li>link</li>
+                    <li> <a href="#">Products <i class="fas fa-chevron-down"></i></a> </li>
+                    <li> <a href="#">Customers</a> </li>
+                    <li> <a href="#">Community <i class="fas fa-chevron-down"></i> </a> </li>
+                    <li> <a href="#">Pricing</a> </li>
                   </ul>
                 </nav>
               </div>
               <div class="ms_head_right col-xs-6 col-md-4">
-                <span class="ms_button_menu visible-xs visible-sm text-right">
+                <span class="ms_hamb_menu visible-xs visible-sm text-right">
                   <i class="fas fa-bars"></i>
                 </span>
                 <nav>
-                  <ul class="hidden-xs hidden-sm text-right list-inline">
-                    <li>link</li>
-                    <li>link</li>
-                    <li>link</li>
+                  <ul class="hidden-xs hidden-sm list-inline">
+                    <li> <a href="#">Docs</a> </li>
+                    <li> <a href="#">Support <i class="fas fa-chevron-down"></i></a> </li>
+                    <li> <a href="#">Login</a> </li>
+                    <a href="#"> <button type="button" class="btn btn-default navbar-btn ms_button_style">Sign Up</button></a>
                   </ul>
                 </nav>
               </div>
@@ -47,99 +50,121 @@
       </div>
       <!-- fine navbar -->
       <!-- jumbotron -->
-      <div class="jumbotron ms_jumbotron_margin">
+      <div class="jumbotron ms_jumbo_bg ms_jumbotron_margin ms_bg_grey">
         <div class="container">
           <!-- jumbotron top -->
           <div class="row">
             <div class="ms_jumbo_col_left col-xs-12 col-sm-5 col-md-6">
-              <h1>Lorem ipsum dolor</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+              <h1>The Simplest cloud platform for developers & teams</h1>
+              <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and business, wwhether you're running one virtual machine or ten thousand. </p>
             </div>
             <div class="ms_jumbo_col_right col-xs-12 col-sm-7 col-md-6">
               <div class="ms_form_box">
-                <h1>Lorem ipsum dolor</h1>
+                <h2 class="text-center">Deploy your app in seconds.</h2>
+                <h3 class="text-center">Get Started now.</h3>
                 <!-- form -->
                 <form>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                   </div>
                 </form>
                 <!-- fine form -->
-                <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-                <button type="button" class="btn btn-default btn-lg btn-block">Block level button</button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit </p>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Create your account</button>
+                <button type="button" class="btn btn-default btn-lg btn-block"> <img src="img/google-icon.png" alt=""> <span>Sign up with Google</span></button>
+                <div class="text-center ms_terms">
+                  <span>By signing up you agree to the <a href="#">Terms of Service</a>. </span>
+                </div>
               </div>
             </div>
           </div>
-          <!-- fine jumbotron top -->
-          <!-- jumbotron bottom -->
+        </div>
+      </div>
+      <!-- fine jumbotron top -->
+      <!-- jumbotron bottom -->
+      <div class="container-fluid ms_bg_grey">
+        <div class="wrapped">
           <div class="row ms_padding_top text-center">
-            <div class="col-xs-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+            <div class="col-xs-12 text-uppercase ms_text_grey">
+              <p> <strong>innovative business trust digital ocean</strong> </p>
             </div>
           </div>
           <div class="row ms_padding_top ms_padding_bottom">
             <div class="col-xs-6 col-sm-2">
-            img logo
+              <img class="ms_logo_img" src="img/logo_docker.svg" alt="">
             </div>
             <div class="col-xs-6 col-sm-2">
-            img logo
+              <img class="ms_logo_img" src="img/logo_gitlab.svg" alt="">
             </div>
             <div class="col-xs-6 col-sm-2">
-            img logo
+              <img class="ms_logo_img" src="img/logo_slack.svg" alt="">
             </div>
             <div class="col-xs-6 col-sm-2">
-            img logo
+              <img class="ms_logo_img" src="img/logo_hashicorp.svg" alt="">
             </div>
             <div class="col-xs-6 col-sm-2">
-            img logo
+              <img class="ms_logo_img" src="img/logo_wework.svg" alt="">
             </div>
             <div class="col-xs-6 col-sm-2">
-            img logo
+              <img class="ms_logo_img" src="img/logo_splunk.svg" alt="">
             </div>
           </div>
-          <p class="text-center">link</p>
+          <p class="text-center"><a href="#">View customers stories <i class="fas fa-greater-than"></i></a> </p>
         </div>
+
       </div>
       <!-- fine jumbotron -->
     </header>
       <!-- inizio prima section -->
-    <section>
+    <section id="deploy">
       <div class="container ms_padding_bottom">
         <div class="row ms_row_title">
-          <div class="text-center col-xs-12">
-            <h2>lorem ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al</p>
+          <div class="text-center ms_padding_bottom col-xs-12">
+            <h2>Deploy and scale seamlessly</h2>
+            <p class="ms_text_grey">Our pètimized configurration process saves your team time when running and scaling distributed applications, Al & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-sm-3">
+          <div class="ms_text_grey col-xs-12 col-sm-3 ms_padding_top">
             <ul>
-              <li>lore ipsum</li>
-              <li>lore ipsum</li>
-              <li>lore ipsum</li>
-              <li>lore ipsum</li>
-              <li>lore ipsum</li>
+              <li>Deploy</li>
+              <li>Manage</li>
+              <li>secure</li>
+              <li>Scale</li>
+              <li>Monitor</li>
             </ul>
           </div>
           <div class="col-xs-12 col-sm-9">
             <div class="row">
               <div class="ms_padding_top col-xs-12 col-sm-6">
-                1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al
+                <div class="ms_content">
+                  <img src="img/cluster-deploy.svg" alt="">
+                  <h4>Cluster deployments</h4>
+                  <p class="ms_text_grey">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+                </div>
               </div>
               <div class="ms_padding_top col-xs-12 col-sm-6">
-                2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al
+                <div class="ms_content">
+                  <img src="img/optimized-compute.svg" alt="">
+                  <h4>Optimized compute types</h4>
+                  <p class="ms_text_grey">Get the compute resources you need with Standard or Optimized Droplets</p>
+                </div>
               </div>
               <div class="ms_padding_top col-xs-12 col-sm-6">
-                3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al
+                <div class="ms_content">
+                  <img src="img/one-click.svg" alt="">
+                  <h4>One-click apps</h4>
+                  <p class="ms_text_grey">Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker and more.</p>
+                </div>
               </div>
               <div class="ms_padding_top col-xs-12 col-sm-6">
-                4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al
+                <div class="ms_content">
+                  <img src="img/global.svg" alt="">
+                  <h4>Global availability</h4>
+                  <p class="ms_text_grey">Deploy to any of our data center regions around the world.</p>
+                </div>
               </div>
             </div>
           </div>
